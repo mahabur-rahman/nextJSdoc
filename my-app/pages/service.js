@@ -1,7 +1,21 @@
-import styles from "../styles/Service.module.css";
+import styles from "../styles/Service.module.scss";
 
 function Service() {
-  return <h1 className={`${styles.test} ${styles.mainFont}`}>Service page</h1>;
+  return (
+    <>
+      <section id="service">
+
+        <h1>this is title</h1>
+
+        
+
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi,
+          dolore.
+        </p>
+      </section>
+    </>
+  );
 }
 
 export default Service;
