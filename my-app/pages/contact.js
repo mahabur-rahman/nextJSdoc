@@ -1,7 +1,14 @@
-import styles from "../styles/Contact.module.scss";
+import Footer from "@/components/Footer";
 
 function Contact() {
-  return <h1 className={styles.highlight}>Service page</h1>;
+  return <h1 className="content">contact page</h1>;
 }
 
 export default Contact;
+
+Contact.getLayout = (page) => (
+  <>
+    {page}
+    <Footer />
+  </>
+);
