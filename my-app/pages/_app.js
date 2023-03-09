@@ -1,11 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@/styles/globals.css";
 // import '../styles/globals.css'
-import "../styles/layout.css";
+import "styles/layout.css";
 
 import { ThemeProvider } from "styled-components";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "components/Header";
+import Footer from "components/Footer";
 
 const theme = {
   colors: {
